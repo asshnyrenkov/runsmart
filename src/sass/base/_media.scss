@@ -1,0 +1,143 @@
+@media (max-width: 991px) {
+   .header {
+      justify-content: space-around;
+   }
+   .promo {
+      &__wrapper {
+         align-items: center;
+      }
+   }
+   .advantages {
+      &__wrapper {
+         justify-content: space-around;
+      }
+   }
+   .title {
+      &_left {
+         font-size: 30px;
+         text-align: center;
+      }
+   }
+   .consultation {
+      padding: 70px 0 65px;
+      &__descr {
+         text-align: center;
+      }
+   }
+   .feed-form {
+      margin: 36px auto 0;
+   }
+   .prev, .next {
+      display: none;
+   }
+}
+
+@media (max-width: 767px) {
+   .header {
+      &__official {
+         display: none;
+      }
+   }
+   .promo {
+      padding-bottom: 35px;
+      min-height: 500px;
+      &__wrapper {
+         margin-top: 65px;
+      }
+      &__header {
+         font-size: 38px;
+      }
+      &__subheader {
+         font-size: 20px
+      }
+      &__icons {
+         margin-top: 45px;
+      }
+   }
+   .button {
+      &_main {
+         margin-top: 45px;
+      }
+   }
+   .advantages {
+      padding: 35px 0 35px;
+      &__wrapper {
+         margin-top: 40px;
+         flex-direction: column;
+         align-items: center;
+      }
+      &__item {
+         width: 90%;
+      }
+      &__subtitle {
+         margin-top: 15px;
+      }
+      &__descr {
+         margin: 15px 0 15px;
+      }
+   }
+   .title {
+      &_left {
+         font-size: 28px;
+      }
+   }
+}
+
+@media (max-width: 575px) {
+   .header {
+      &__logo {
+         max-width: 160px;
+      }
+      &__phone {
+         font-size: 14px;
+      }
+   }
+   .promo {
+      padding: 15px 0;
+      &__header {
+         font-size: 24px;
+         line-height: 24px;
+      }
+      &__subheader {
+         font-size: 14px;
+         line-height: 14px;
+      }
+      &__icons {
+         margin-top: 35px;
+         width: 300px;
+         align-items: baseline;
+      }
+      &__icon {
+         font-size: 12px;
+      }
+   }
+   .button {
+      width: 130px;
+      &_main {
+         margin-top: 35px;
+         width: 250px;
+      }
+      &_submit {
+         width: 100%;
+      }
+   }
+   .advantages {
+      padding: 20px 0;
+      &__wrapper {
+         margin-top: 20px;
+      }
+   }
+   .title {
+      font-size: 18px;
+      &_left {
+         padding: 0 10px;
+      }
+   }
+   .consultation {
+      min-height: 530px;
+      padding: 50px 0 20px;
+      &__descr {
+         font-size: 16px;
+      }
+   }
+}
