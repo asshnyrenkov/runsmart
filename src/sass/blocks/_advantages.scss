@@ -33,10 +33,7 @@
    }
    &__icon {
       &_animation {
-         animation-name: heatbeat;
-         animation-duration: 1.5s;
-         animation-timing-function: ease;
-         animation-iteration-count: infinite;
+         animation: heatbeat 1.7s ease infinite;
       }
    }
 
