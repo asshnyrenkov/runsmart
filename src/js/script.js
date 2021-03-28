@@ -94,8 +94,13 @@ $(document).ready(function () {
 
    $('input[name=phone]').mask('+7 (999) 999-99-99');
 
-   $('form').submit(function(e) {
+     $('form').submit(function(e) {
       e.preventDefault();
+
+      if (!$(this).valid()) {
+         return;
+      }
+
       $.ajax({
          type: "POST",
          url: "mailer/smart.php",
@@ -108,7 +113,7 @@ $(document).ready(function () {
          $('form').trigger('reset');
       });
       return false;
-  });
+   }); 
 
   /* скролл pageup */
    $(window).scroll(function() {
